@@ -1,0 +1,26 @@
+START 
+
+SHOW Splash Screen
+WAIT 3 seconds
+NAVIGATE to Main Screen
+
+MAIN SCREEN:
+LOAD arrays (items, categories, quantities, notes)
+SET totalItems = 0
+
+FOR each quantity in quantities:
+ADD to totalItems
+
+DISPLAY totalItems
+
+IF "View Gear List" clicked:
+GO to Detailed Screen
+
+DETAILED SCREEN:
+FOR each item in arrays:
+DISPLAY item, category, quantity, notes
+
+IF "Back to Base" clicked:
+RETURN to Main Screen
+
+END 
