@@ -1,0 +1,23 @@
+Description
+This Android application helps users manage campsite gear using parallel arrays, loops, and multi-screen navigation.
+
+Features
+- Splash screen introduction
+- Main screen displaying total items packed
+- Detailed screen showing full gear list
+- Navigation between screens
+- Dark themed UI
+
+Data Structures
+The app uses parallel arrays:
+- items[]
+- categories[]
+- quantities[]
+- notes[]
+
+Functionality
+- Loop calculates total number of items
+- Intent navigation between screens
+- Back button returns to main screen
+
+
